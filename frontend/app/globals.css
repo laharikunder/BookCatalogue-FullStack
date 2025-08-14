@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+  height: 100%;
+}
+
+.bg {
+  background-image: url("https://marketplace.canva.com/EAFY--SaHac/3/0/1131w/canva-beige-vintage-watercolor-books-page-border-K4RDj97oscI.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@layer utilities {
+  @keyframes fade-down {
+    0% {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes fade-up {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .animate-fade-down {
+    animation: fade-down 0.8s ease-out forwards;
+  }
+
+  .animate-fade-up {
+    animation: fade-up 0.8s ease-out forwards;
+  }
+
+  .animation-delay-300 {
+    animation-delay: 0.3s;
+  }
+
+  .animation-delay-500 {
+    animation-delay: 0.5s;
+  }
+
+  .animation-delay-700 {
+    animation-delay: 0.7s;
+  }
+}
