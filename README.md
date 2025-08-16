@@ -11,7 +11,9 @@ This app lets users browse, add, update, and delete books in a simple and modern
   - Built with Next.js + Tailwind CSS  
   - Responsive UI for desktop and mobile  
   - Book listing with details modal  
-  - Add and manage books easily  
+  - Add and manage books easily
+  - Reviews section for feedback  
+  - Contact section for queries  
 
 - **Backend:**  
   - Express.js REST API  
@@ -34,3 +36,52 @@ This app lets users browse, add, update, and delete books in a simple and modern
 - dotenv
 
 ---
+
+## 📂 Project Structure
+
+BookCatalogue-FullStack/
+├── backend/ # Express + MongoDB API
+├── frontend/ # Next.js frontend
+└── README.md
+
+---
+
+## ⚙️ Setup Instructions
+
+### 1️⃣ Clone the Repository
+git clone https://github.com/your-username/BookCatalogue-FullStack.git
+cd BookCatalogue-FullStack
+
+### 2️⃣ Setup Backend
+cd backend
+npm install
+
+
+Create a .env file inside the backend folder:
+
+MONGO_URI=your-mongodb-uri
+PORT=5000
+
+
+Run the backend server:
+
+npm start
+
+### 3️⃣ Setup Frontend
+cd ../frontend
+npm install
+
+
+Start the development server:
+
+npm run dev
+
+---
+
+## 🚀 Future Improvements
+
+- Add authentication (login/signup)
+
+- Deploy on cloud (Vercel + Render/Heroku)
+
+- Add book cover image uploads
