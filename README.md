@@ -52,17 +52,20 @@ BookCatalogue-FullStack/
 ## ⚙️ Setup Instructions
 
 ### 1️⃣ Clone the Repository
-git clone https://github.com/your-username/BookCatalogue-FullStack.git
+git clone https://github.com/laharikunder/BookCatalogue-FullStack.git
+
 cd BookCatalogue-FullStack
 
 ### 2️⃣ Setup Backend
 cd backend
+
 npm install
 
 
 Create a .env file inside the backend folder:
 
 MONGO_URI=your-mongodb-uri
+
 PORT=5000
 
 
@@ -72,6 +75,7 @@ npm start
 
 ### 3️⃣ Setup Frontend
 cd ../frontend
+
 npm install
 
 
