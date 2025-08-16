@@ -40,8 +40,11 @@ This app lets users browse, add, update, and delete books in a simple and modern
 ## 📂 Project Structure
 
 BookCatalogue-FullStack/
+
 ├── backend/ # Express + MongoDB API
+
 ├── frontend/ # Next.js frontend
+
 └── README.md
 
 ---
