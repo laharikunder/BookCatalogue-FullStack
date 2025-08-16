@@ -1,4 +1,4 @@
-# 📚 Book Catalogue (MERN Stack)
+# 📚 Book Catalogue
 
 A full-stack **Book Catalogue** web application built with **Next.js (Frontend)**, **Express.js (Backend)**, and **MongoDB**.  
 This app lets users browse, add, update, and delete books in a simple and modern interface.
